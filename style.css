@@ -932,9 +932,140 @@ i {
 /* footer */
 
 footer {
-    height: 480px;
+    height: 640px;
     background-color: #0b375b;
     opacity: 0.95;
+}
+
+.table-wrapper {
+    width: 74%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead tr th,
+table tbody tr td {
+    padding-right: 90px;
+}
+
+table thead tr th:nth-last-child(1),
+table tbody tr td:nth-last-child(1) {
+    padding-right: 0;
+}
+
+
+table thead tr th:nth-last-child(4),
+table tbody tr td:nth-last-child(4) {
+    padding-right: 40px;
+}
+
+table thead tr th,
+table tbody tr th {
+    text-align: left;
+    color: #d2c988;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+table thead tr td,
+table tbody tr td {
+    padding: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+table thead tr th {
+    padding-bottom: 25px;
+}
+
+table {
+    color: white;
+    border-bottom: 2px solid #b5b37f;
+}
+
+table thead tr td i,
+table tbody tr td i,
+table thead tr td p,
+table tbody tr td p {
+    display: inline-block;
+}
+
+table thead tr td p.decorate {
+    width: 60%;
+}
+
+table thead tr td p,
+table tbody tr td p.contact {
+    width: 80%;
+}
+
+table thead tr td,
+table tbody tr td {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+footer .grid-wrapper {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 24% 25% 24%;
+    grid-column-gap: 190px;
+    grid-auto-rows: 110px;
+    box-sizing: border-box;
+}
+
+.grid-wrapper .with-logo img,
+.grid-wrapper .with-logo p {
+    display: inline-block;
+}
+
+.grid-wrapper .with-logo p {
+    width: 65%;
+    margin: 0;
+    margin-left: 10px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.grid-wrapper .copyright {
+    text-align: right;
+}
+
+.grid-wrapper .with-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-wrapper .title {
+
+    color: #d2c988;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.grid-wrapper .copyright .top,
+.grid-wrapper .copyright .bottom {
+
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.grid-wrapper .copyright .bottom a {
+    text-decoration: none;
+    color: #d2c988;
 }
 
 /* log */
